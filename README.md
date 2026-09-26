@@ -1,6 +1,6 @@
 # Automatic Turret (Pan-Tilt System)
 
-An ESP32-based automatic targeting system that uses **dual ultrasonic sensors** to detect an object's position in real time and drives a **servo motor** to align a pan-tilt turret toward it — no camera or vision pipeline required.
+An ESP32-based automatic targeting system that uses **dual ultrasonic sensors** to detect an object's position in real time and drives a **servo motor** to align a pan-tilt turret toward it no camera or vision pipeline required.
 
 This repository accompanies the report *"Automatic Turret (Pan-Tilt System)"* (`raturret-project-thesis.docx`) and includes a short demo video (`automatic-turret-demonstration.mp4`).
 
