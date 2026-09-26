@@ -108,18 +108,18 @@ This shows the servo's angular speed is highest immediately after a command and 
 
 ```
    ┌─────────────────┐        ┌─────────────────┐
-   │ HC-SR04 Sensor 1 │        │ HC-SR04 Sensor 2 │
-   └────────┬─────────┘        └────────┬─────────┘
-            │   distance readings       │
-            └───────────┬────────────────┘
-                         ▼
+   │ HC-SR04 Sensor 1│        │ HC-SR04 Sensor 2│
+   └────────┬────────┘        └────────┬────────┘
+            │     distance readings    │
+            └───────────┬──────────────┘
+                        ▼
                  ┌───────────────┐
-                 │     ESP32      │  ← computes angular correction
-                 └───────┬────────┘
+                 │     ESP32     │  ← computes angular correction
+                 └───────┬───────┘
                          │ PWM signal
                          ▼
                  ┌───────────────┐
-                 │  Servo Motor   │  ← pan/tilt actuation
+                 │  Servo Motor  │  ← pan/tilt actuation
                  └───────────────┘
 ```
 
