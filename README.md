@@ -167,9 +167,9 @@ This shows the servo's angular speed is highest immediately after a command and 
 ## Experimental Results
 
 - **Object detection accuracy** — the ultrasonic sensors reliably detected objects within a range of roughly **2 to 400 cm**, with consistent readings across different surfaces and orientations.
-- **Servo response** — the servo motor tracked the computed angular displacement accurately, exhibiting smooth rotation and precise positioning without overshoot.
-- **System latency** — the delay between object detection and turret adjustment was minimal, giving near real-time tracking.
-- **Model validation** — the servo's measured step response matched the first-order transfer function model closely, with curve-fitted parameters confirming expected exponential settling behavior.
+- **Servo response** :the servo motor tracked the computed angular displacement accurately, exhibiting smooth rotation and precise positioning without overshoot.
+- **System latency** : the delay between object detection and turret adjustment was minimal, giving near real-time tracking.
+- **Model validation** : the servo's measured step response matched the first-order transfer function model closely, with curve-fitted parameters confirming expected exponential settling behavior.
 
 See `raturret-project-thesis.docx` for the full magnitude/phase response plots and detailed discussion.
 
@@ -177,9 +177,9 @@ See `raturret-project-thesis.docx` for the full magnitude/phase response plots a
 
 ## Future Work
 
-- **Object tracking and shooting** — integrating a mechanism to engage the detected object once it's within range
-- **Advanced targeting algorithms** — more sophisticated prediction and tracking for moving objects (e.g., adaptive or PID-based control)
-- **Camera integration** — adding visual feedback to improve targeting accuracy beyond ultrasonic-only sensing
+- **Object tracking and shooting** : integrating a mechanism to engage the detected object once it's within range
+- **Advanced targeting algorithms** : more sophisticated prediction and tracking for moving objects (e.g., adaptive or PID-based control)
+- **Camera integration** : adding visual feedback to improve targeting accuracy beyond ultrasonic-only sensing
 
 ---
 
